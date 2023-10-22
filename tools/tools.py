@@ -1,6 +1,7 @@
 from langchain.serpapi import SerpAPIWrapper
 # from langchain.utilities import OpenWeatherMapAPIWrapper
 
+
 def get_profile_url(text: str) -> str:
     """Makes a google search"""
     search = SerpAPIWrapper()

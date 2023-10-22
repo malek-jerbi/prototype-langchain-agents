@@ -14,7 +14,6 @@ def lookup(prompt: str) -> str:
         )
     )
 
-
     agent = initialize_agent(
         tools=tools,
         llm=llm,
@@ -22,6 +21,6 @@ def lookup(prompt: str) -> str:
         verbose=True,
     )
     
-    linkedin_profile_url = agent.run(prompt)
+    prompt_answer = agent.run(prompt)
 
-    return linkedin_profile_url
+    return prompt_answer

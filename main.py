@@ -2,9 +2,9 @@ from agents.agent import lookup
 
 
 def make_request(name: str) -> str:
-    linkedin_profile_url = lookup(prompt=name)
+    agent_answer = lookup(prompt=name)
 
-    return linkedin_profile_url
+    return agent_answer
 
 
 if __name__ == "__main__":
