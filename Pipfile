@@ -12,6 +12,7 @@ openai = "*"
 tweepy = "*"
 flask = "*"
 pyowm = "*"
+mysql-connector-python = "*"
 
 [dev-packages]
 
